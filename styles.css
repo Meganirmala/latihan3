@@ -29,10 +29,34 @@ body{
     margin-left: 10px;
     margin-bottom: 20px;
 }
+.blog-single {
+    float: left;
+    max-width: 720px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.blog-single img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
 .blog-content img{
     width: 100%;
     height: 180px;
     object-fit: cover;
+}
+.recent-article{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.recent-article ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.recent-article a{
+    text-decoration: none;
 }
 #logo{
     float: left;
